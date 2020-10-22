@@ -10,9 +10,6 @@ async function initWorkout() {
     lastExerciseTotalDuration += lastWorkout.exercises[i].duration;
   }
 
-  // console.log("lastExerciseTotalDuration");
-  // console.log(lastExerciseTotalDuration);
-
   if (lastWorkout) {
     document
       .querySelector("a[href='/exercise?']")
